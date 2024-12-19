@@ -1,0 +1,11 @@
+/*
+  Utils of the App
+*/
+
+@layer utils {
+  .u-t {
+    transition-duration: 300ms;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: ease-in-out;
+  }
+}
