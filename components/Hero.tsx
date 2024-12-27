@@ -51,14 +51,25 @@ export default function Hero() {
             </p>
           </div>
 
-          <NextLink
-            id="cta"
-            href="#start"
-            bgColorHover="blue-600_50"
-            borderColorHover="blue-200"
-          >
-            Get Started
-          </NextLink>
+          <div id="cta" className='flex gap-16'>
+            <NextLink
+              href="https://github.com/revueltai/movinwords"
+              target="_blank"
+              bgColorHover="blue-600_50"
+              borderColorHover="blue-200"
+            >
+              Get Started
+            </NextLink>
+
+            <NextLink
+              href="#start"
+              bgColor="transparent"
+              bgColorHover="blue-600_50"
+              borderColor="blue-200"
+            >
+              See Examples
+            </NextLink>
+          </div>
         </div>
       </section>
     </>
