@@ -6,7 +6,10 @@ import Modal from '@/components/Modal'
 export default function Content() {
   return (
     <ModalProvider>
-      <div className="flex flex-col gap-64 px-32 -mt-112">
+      <div
+        id="start"
+        className="flex flex-col gap-64 px-32 -mt-112"
+      >
         <section
           id="content"
           className="content px-32 py-24 flex flex-col gap-96"
