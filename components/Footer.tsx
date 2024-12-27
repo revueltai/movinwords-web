@@ -3,7 +3,10 @@ import Icon from '@/components/Icon'
 
 export default function Footer() {
   return (
-    <footer className="mx-32 flex items-center justify-between px-64 py-32 border-t border-t-blue-400_50 rounded-t-32 m:flex-col m:gap-32 m:px-32">
+    <footer
+      id="footer"
+      className="mx-32 flex items-center justify-between px-64 py-32 border-t border-t-blue-400_50 rounded-t-32 m:flex-col m:gap-32 m:px-32"
+    >
       <div className="flex items-center gap-24 m:flex-col m:text-center">
         <a href="https://iamnacho.com" target="_blank">
           <Image

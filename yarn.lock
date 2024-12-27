@@ -1952,6 +1952,11 @@ minimist@^1.2.0, minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-7.1.2.tgz#93a9626ce5e5e66bd4db86849e7515e92340a707"
   integrity sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==
 
+movinblocks@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/movinblocks/-/movinblocks-1.0.0.tgz#2213ba50ef8de8e7d37e4bcc84b47e2a40ebf01c"
+  integrity sha512-hSJ7lFWfKkRDt9UmpI+PB2Ie0hGogxAkDHuq9FM26/0D3Z8pwgpWWFZLOcFZ22EBZbRObfnVaZtwMLqMrhhxOw==
+
 movinwords@latest:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/movinwords/-/movinwords-1.6.2.tgz#53bfa51c2c1e90fd7816a5110234b10394248827"

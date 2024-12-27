@@ -4,7 +4,10 @@ import Icon from '@/components/Icon'
 export default function Header() {
   return (
     <>
-      <header className="fixed backdrop-blur-sm z-50 bg-black_50 w-full px-64 py-32 border-b border-b-blue-400_10 m:px-32">
+      <header
+        id="header"
+        className="fixed backdrop-blur-sm z-50 bg-black_50 w-full px-64 py-32 border-b border-b-blue-400_10 m:px-32"
+      >
         <div className="mx-auto flex items-center justify-between max-w-1400">
           <Image
             src="logo.svg"

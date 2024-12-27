@@ -6,11 +6,11 @@ import Modal from '@/components/Modal'
 export default function Content() {
   return (
     <ModalProvider>
-      <div
-        id="start"
-        className="flex flex-col gap-64 px-32 -mt-112"
-      >
-        <section className="content px-32 py-24 flex flex-col gap-96">
+      <div className="flex flex-col gap-64 px-32 -mt-112">
+        <section
+          id="content"
+          className="content px-32 py-24 flex flex-col gap-96"
+        >
           {MW_EXAMPLES.map((example, key) => (
             <Example
               key={key}

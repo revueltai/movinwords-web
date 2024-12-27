@@ -129,6 +129,7 @@ export default function NextLink({
 
       {['link', 'linkButton'].includes(type) && (
         <Link
+          id={id}
           href={href}
           target={sanitizedTarget}
           className={cssClasses}
