@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.4.1",
     "movinblocks": "^1.0.0",
     "movinwords": "latest",
     "next": "15.1.1",
