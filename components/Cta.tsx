@@ -21,7 +21,10 @@ export default function Cta() {
   }, [])
 
   return (
-    <section className="cta relative text-center flex flex-col items-center my-96 pt-96 pb-0 px-64 border-t border-t-blue-200_50 rounded-t-64 m:pt-64 m:px-40">
+    <section
+      id="ctaBottom"
+      className="cta relative text-center flex flex-col items-center my-96 pt-96 pb-0 px-64 border-t border-t-blue-200_50 rounded-t-64 m:pt-64 m:px-40"
+    >
       <h2
         id="ctaHeading"
         className="text-2xl font-bold m:text-xl m:font-bold"
